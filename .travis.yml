@@ -1,0 +1,10 @@
+language: objective-c
+osx_image: xcode7.3
+before_script:
+    - gem install cucumber
+    - gem install aruba
+    - brew update
+    - brew install carthage
+script:
+    - cucumber
+    - sleep 5
