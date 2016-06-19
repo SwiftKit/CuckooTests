@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C06C30B2536D01AFD4BF749 /* Pods_CuckooTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF20E14EF0C6133250544279 /* Pods_CuckooTest.framework */; };
+		DC4093D31D101874006FB137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4093D21D101874006FB137 /* AppDelegate.swift */; };
+		DC4093D51D101874006FB137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4093D41D101874006FB137 /* ViewController.swift */; };
+		DC4093D81D101874006FB137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4093D61D101874006FB137 /* Main.storyboard */; };
+		DC4093DA1D101874006FB137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4093D91D101874006FB137 /* Assets.xcassets */; };
+		DC4093DD1D101874006FB137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4093DB1D101874006FB137 /* LaunchScreen.storyboard */; };
+		DC4093E81D101874006FB137 /* CuckooTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4093E71D101874006FB137 /* CuckooTestTests.swift */; };
+		DC4093F31D101874006FB137 /* CuckooTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4093F21D101874006FB137 /* CuckooTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC4093E41D101874006FB137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4093C71D101874006FB137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4093CE1D101874006FB137;
+			remoteInfo = CuckooTest;
+		};
+		DC4093EF1D101874006FB137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4093C71D101874006FB137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4093CE1D101874006FB137;
+			remoteInfo = CuckooTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5134B707F56C601DD3B0E85C /* Pods-CuckooTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuckooTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CuckooTest/Pods-CuckooTest.release.xcconfig"; sourceTree = "<group>"; };
+		BB8646830E439BD93088B2B9 /* Pods-CuckooTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuckooTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CuckooTest/Pods-CuckooTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4093CF1D101874006FB137 /* CuckooTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuckooTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4093D21D101874006FB137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC4093D41D101874006FB137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC4093D71D101874006FB137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC4093D91D101874006FB137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4093DC1D101874006FB137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC4093DE1D101874006FB137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4093E31D101874006FB137 /* CuckooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuckooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4093E71D101874006FB137 /* CuckooTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuckooTestTests.swift; sourceTree = "<group>"; };
+		DC4093E91D101874006FB137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4093EE1D101874006FB137 /* CuckooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuckooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4093F21D101874006FB137 /* CuckooTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuckooTestUITests.swift; sourceTree = "<group>"; };
+		DC4093F41D101874006FB137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF20E14EF0C6133250544279 /* Pods_CuckooTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuckooTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4093CC1D101874006FB137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C06C30B2536D01AFD4BF749 /* Pods_CuckooTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4093E01D101874006FB137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4093EB1D101874006FB137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6ECE55A88EB959C64ECFF55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB8646830E439BD93088B2B9 /* Pods-CuckooTest.debug.xcconfig */,
+				5134B707F56C601DD3B0E85C /* Pods-CuckooTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC4093C61D101874006FB137 = {
+			isa = PBXGroup;
+			children = (
+				DC4093D11D101874006FB137 /* CuckooTest */,
+				DC4093E61D101874006FB137 /* CuckooTestTests */,
+				DC4093F11D101874006FB137 /* CuckooTestUITests */,
+				DC4093D01D101874006FB137 /* Products */,
+				A6ECE55A88EB959C64ECFF55 /* Pods */,
+				FC31ACA25D397482D9962F4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4093D01D101874006FB137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4093CF1D101874006FB137 /* CuckooTests.app */,
+				DC4093E31D101874006FB137 /* CuckooTests.xctest */,
+				DC4093EE1D101874006FB137 /* CuckooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4093D11D101874006FB137 /* CuckooTest */ = {
+			isa = PBXGroup;
+			children = (
+				DC4093D21D101874006FB137 /* AppDelegate.swift */,
+				DC4093D41D101874006FB137 /* ViewController.swift */,
+				DC4093D61D101874006FB137 /* Main.storyboard */,
+				DC4093D91D101874006FB137 /* Assets.xcassets */,
+				DC4093DB1D101874006FB137 /* LaunchScreen.storyboard */,
+				DC4093DE1D101874006FB137 /* Info.plist */,
+			);
+			path = CuckooTest;
+			sourceTree = "<group>";
+		};
+		DC4093E61D101874006FB137 /* CuckooTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4093E71D101874006FB137 /* CuckooTestTests.swift */,
+				DC4093E91D101874006FB137 /* Info.plist */,
+			);
+			path = CuckooTestTests;
+			sourceTree = "<group>";
+		};
+		DC4093F11D101874006FB137 /* CuckooTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4093F21D101874006FB137 /* CuckooTestUITests.swift */,
+				DC4093F41D101874006FB137 /* Info.plist */,
+			);
+			path = CuckooTestUITests;
+			sourceTree = "<group>";
+		};
+		FC31ACA25D397482D9962F4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF20E14EF0C6133250544279 /* Pods_CuckooTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4093CE1D101874006FB137 /* CuckooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4093F71D101874006FB137 /* Build configuration list for PBXNativeTarget "CuckooTests" */;
+			buildPhases = (
+				1550D85B83EFAF62CB238FE3 /* 📦 Check Pods Manifest.lock */,
+				DC4093CB1D101874006FB137 /* Sources */,
+				DC4093CC1D101874006FB137 /* Frameworks */,
+				DC4093CD1D101874006FB137 /* Resources */,
+				7ECD2249E3A3A9E440C97D70 /* 📦 Embed Pods Frameworks */,
+				3368F337DBF659F0E13467C6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuckooTests;
+			productName = CuckooTest;
+			productReference = DC4093CF1D101874006FB137 /* CuckooTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC4093E21D101874006FB137 /* CuckooTestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4093FA1D101874006FB137 /* Build configuration list for PBXNativeTarget "CuckooTestsTests" */;
+			buildPhases = (
+				DC4093DF1D101874006FB137 /* Sources */,
+				DC4093E01D101874006FB137 /* Frameworks */,
+				DC4093E11D101874006FB137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4093E51D101874006FB137 /* PBXTargetDependency */,
+			);
+			name = CuckooTestsTests;
+			productName = CuckooTestTests;
+			productReference = DC4093E31D101874006FB137 /* CuckooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC4093ED1D101874006FB137 /* CuckooTestsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4093FD1D101874006FB137 /* Build configuration list for PBXNativeTarget "CuckooTestsUITests" */;
+			buildPhases = (
+				DC4093EA1D101874006FB137 /* Sources */,
+				DC4093EB1D101874006FB137 /* Frameworks */,
+				DC4093EC1D101874006FB137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4093F01D101874006FB137 /* PBXTargetDependency */,
+			);
+			name = CuckooTestsUITests;
+			productName = CuckooTestUITests;
+			productReference = DC4093EE1D101874006FB137 /* CuckooTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4093C71D101874006FB137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TMSpark;
+				TargetAttributes = {
+					DC4093CE1D101874006FB137 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DC4093E21D101874006FB137 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DC4093CE1D101874006FB137;
+					};
+					DC4093ED1D101874006FB137 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DC4093CE1D101874006FB137;
+					};
+				};
+			};
+			buildConfigurationList = DC4093CA1D101874006FB137 /* Build configuration list for PBXProject "CuckooTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC4093C61D101874006FB137;
+			productRefGroup = DC4093D01D101874006FB137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4093CE1D101874006FB137 /* CuckooTests */,
+				DC4093E21D101874006FB137 /* CuckooTestsTests */,
+				DC4093ED1D101874006FB137 /* CuckooTestsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4093CD1D101874006FB137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4093DD1D101874006FB137 /* LaunchScreen.storyboard in Resources */,
+				DC4093DA1D101874006FB137 /* Assets.xcassets in Resources */,
+				DC4093D81D101874006FB137 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4093E11D101874006FB137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4093EC1D101874006FB137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1550D85B83EFAF62CB238FE3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3368F337DBF659F0E13467C6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CuckooTest/Pods-CuckooTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ECD2249E3A3A9E440C97D70 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CuckooTest/Pods-CuckooTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4093CB1D101874006FB137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4093D51D101874006FB137 /* ViewController.swift in Sources */,
+				DC4093D31D101874006FB137 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4093DF1D101874006FB137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4093E81D101874006FB137 /* CuckooTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4093EA1D101874006FB137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4093F31D101874006FB137 /* CuckooTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC4093E51D101874006FB137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4093CE1D101874006FB137 /* CuckooTests */;
+			targetProxy = DC4093E41D101874006FB137 /* PBXContainerItemProxy */;
+		};
+		DC4093F01D101874006FB137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4093CE1D101874006FB137 /* CuckooTests */;
+			targetProxy = DC4093EF1D101874006FB137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC4093D61D101874006FB137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4093D71D101874006FB137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4093DB1D101874006FB137 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4093DC1D101874006FB137 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4093F51D101874006FB137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC4093F61D101874006FB137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4093F81D101874006FB137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8646830E439BD93088B2B9 /* Pods-CuckooTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CuckooTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TMSpark.CuckooTest;
+				PRODUCT_NAME = CuckooTests;
+			};
+			name = Debug;
+		};
+		DC4093F91D101874006FB137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5134B707F56C601DD3B0E85C /* Pods-CuckooTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CuckooTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TMSpark.CuckooTest;
+				PRODUCT_NAME = CuckooTests;
+			};
+			name = Release;
+		};
+		DC4093FB1D101874006FB137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CuckooTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TMSpark.CuckooTestTests;
+				PRODUCT_NAME = CuckooTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuckooTests.app/CuckooTests";
+			};
+			name = Debug;
+		};
+		DC4093FC1D101874006FB137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CuckooTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TMSpark.CuckooTestTests;
+				PRODUCT_NAME = CuckooTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuckooTests.app/CuckooTests";
+			};
+			name = Release;
+		};
+		DC4093FE1D101874006FB137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CuckooTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TMSpark.CuckooTestUITests;
+				PRODUCT_NAME = CuckooTests;
+				TEST_TARGET_NAME = CuckooTest;
+			};
+			name = Debug;
+		};
+		DC4093FF1D101874006FB137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CuckooTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TMSpark.CuckooTestUITests;
+				PRODUCT_NAME = CuckooTests;
+				TEST_TARGET_NAME = CuckooTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4093CA1D101874006FB137 /* Build configuration list for PBXProject "CuckooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4093F51D101874006FB137 /* Debug */,
+				DC4093F61D101874006FB137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4093F71D101874006FB137 /* Build configuration list for PBXNativeTarget "CuckooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4093F81D101874006FB137 /* Debug */,
+				DC4093F91D101874006FB137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4093FA1D101874006FB137 /* Build configuration list for PBXNativeTarget "CuckooTestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4093FB1D101874006FB137 /* Debug */,
+				DC4093FC1D101874006FB137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4093FD1D101874006FB137 /* Build configuration list for PBXNativeTarget "CuckooTestsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4093FE1D101874006FB137 /* Debug */,
+				DC4093FF1D101874006FB137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4093C71D101874006FB137 /* Project object */;
+}
