@@ -6,7 +6,7 @@ before_script:
     - gem install cucumber
     - gem install aruba
     - brew update
-    - brew install carthage
+    - brew outdated carthage || brew upgrade carthage
 script:
     - cucumber
     - sleep 5
